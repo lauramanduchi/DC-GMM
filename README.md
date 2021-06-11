@@ -1,6 +1,6 @@
 # Deep Conditional Gaussian Mixture Model for Constrained Clustering.
 
-This repository holds the code for Arxiv paper Deep Conditional Gaussian Mixture Model for Constrained Clustering.
+This repository holds the code for the paper Deep Conditional Gaussian Mixture Model for Constrained Clustering.
 
 ## Motivation
 
