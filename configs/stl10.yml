@@ -1,0 +1,23 @@
+# Data
+data:
+  data_name: cifar10
+
+training:
+  # Training
+  eval_frequency: 200
+  std_shape_generation: [-0, 0]  # minimum/maximum
+
+  # Architecture
+  inp_shape: 2048
+  latent_dim: 10
+  num_clusters: 10
+  activation: None
+  type: "FC"
+
+  # Optimization.
+  loss_str: 'l2'
+  regularization: 0.0005
+  dropout: 1
+  learning_rate: 0.0008
+  decay_rate: 0.99
+  momentum: 0.9

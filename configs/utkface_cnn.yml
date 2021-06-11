@@ -1,0 +1,25 @@
+# Data
+data:
+  data_name: utkface
+  label: "ethnicity"
+  flatten: "no"
+
+training:
+  # Training
+  eval_frequency: 200
+  std_shape_generation: [-0, 0]  # minimum/maximum
+
+  # Architecture
+  inp_shape: (64, 64, 3)
+  latent_dim: 50
+  num_clusters: 4
+  activation: "sigmoid"
+  type: "VGG"
+
+  # Optimization.
+  loss_str: 'l2'
+  regularization: 0.0005
+  dropout: 1
+  learning_rate: 0.0008
+  decay_rate: 0.99
+  momentum: 0.9
