@@ -534,7 +534,7 @@ def main():
                         choices=['MNIST', 'fMNIST', 'Reuters', 'stl10', 'heart_echo', 'utkface'],
                         help='specify the data (MNIST, fMNIST, Reuters, stl10, heart_echo, utkface)')
     parser.add_argument('--num_epochs',
-                        default=1000,
+                        default=500,
                         type=int,
                         help='specify the number of epochs')
     parser.add_argument('--num_constrains',
@@ -542,7 +542,7 @@ def main():
                         type=int,
                         help='specify the number of constrains')
     parser.add_argument('--batch_size',
-                        default=256,
+                        default=128,
                         type=int,
                         help='specify the batch size')
     parser.add_argument('--alpha',
