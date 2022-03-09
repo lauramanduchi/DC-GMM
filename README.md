@@ -30,11 +30,11 @@ To download and configure the UTKFace datset:
 
 To run DC-GMM using the default setting on MNIST data set:
 
-`python main.py --pretrain True`
+`python main.py`
 
 To run DC-GMM without pairwise constraints using the default setting:
 
-`python main.py --pretrain True --num_constrains 0`
+`python main.py --num_constrains 0`
 
 To choose different configurations of the hyper-parameters:
 
